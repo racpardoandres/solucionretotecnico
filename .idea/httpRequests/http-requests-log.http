@@ -1,0 +1,48 @@
+POST http://localhost:8080/guardarrol
+Content-Type: application/json
+Content-Length: 37
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "",
+  "estado": false
+}
+
+<> 2025-02-12T222444.400.json
+
+###
+
+POST http://localhost:8080/guardarrol
+Content-Type: application/json
+Content-Length: 37
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "",
+  "estado": false
+}
+
+<> 2025-02-12T222437.400.json
+
+###
+
+POST http://localhost:8080/guardarrol
+Content-Type: application/json
+Content-Length: 37
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "",
+  "estado": false
+}
+
+<> 2025-02-12T222420.400.json
+
+###
+

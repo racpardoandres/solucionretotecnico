@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3541cff6-cab9-4fd6-9be9-5cc4c4293566" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ActualizarRolServiceTest.testExecute_Success" />
+    </enabled-run-configurations>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2sxa9pzmm29sZePOvlP85lGUXIq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ActualizarRolServiceTest.testExecute_Success.executor": "Debug",
+    "JUnit.AuthControllerTest.executor": "Run",
+    "JUnit.AuthControllerTest.testLogin.executor": "Debug",
+    "JUnit.AuthControllerTest.testLoginSuccess (1).executor": "Run",
+    "JUnit.AuthControllerTest.testLoginSuccess (2).executor": "Run",
+    "JUnit.AuthControllerTest.testLoginSuccess.executor": "Run",
+    "JUnit.AuthControllerTest.testLogin_NullJWT.executor": "Debug",
+    "JUnit.CrearRolServiceTest.CrearRolSucces.executor": "Run",
+    "JUnit.CrearUsuarioUseCaseImplTest.executor": "Run",
+    "JUnit.CrearUsuarioUseCaseImplTest.testExecute.executor": "Run",
+    "JUnit.RolControllerTest.testActualizarRol.executor": "Run",
+    "JUnit.RolControllerTest.testDeleteRol.executor": "Run",
+    "JUnit.RolControllerTest.testEncontrarRol.executor": "Run",
+    "JUnit.RolControllerTest.testEncontrarTodosLosRoles.executor": "Run",
+    "JUnit.RolControllerTest.testGuardarRol.executor": "Run",
+    "JUnit.RolJpaCreate.testFindAll.executor": "Run",
+    "JUnit.RolJpaCreateTest.save_newUser.executor": "Debug",
+    "JUnit.RolJpaCreateTest.testFindAll.executor": "Run",
+    "JUnit.RolJpaDelete.testDeleteById_ExistingRol.executor": "Run",
+    "JUnit.RolJpaDeleteTest.testDeleteById_ExistingRol.executor": "Run",
+    "JUnit.RolJpaFindALLTest.testFindAll.executor": "Run",
+    "JUnit.RolJpaFindByIdTest.testFindById.executor": "Run",
+    "JUnit.RolJpaRepositoryTest.testDeleteById_ExistingRol.executor": "Run",
+    "JUnit.RolJpaRepositoryTest.testFindAll.executor": "Debug",
+    "JUnit.RolJpaRepositoryTest.testFindById.executor": "Run",
+    "JUnit.RolJpaRepositoryTest.testSave_ExistingRol.executor": "Debug",
+    "JUnit.RolJpaRepositoryTest.testSave_NewRol.executor": "Run",
+    "JUnit.UserJpaRepositoryDeleteTest.DeleteUser.executor": "Run",
+    "JUnit.UserJpaRepositoryImplFindByIdTest.testFindById_UserExists.executor": "Run",
+    "JUnit.UserJpaRepositoryImplTest.testFindById_UserExists.executor": "Run",
+    "JUnit.UserJpaRepositoryImplTest.testSave_NewUser (1).executor": "Run",
+    "JUnit.UserJpaRepositoryImplTest.testSave_NewUser.executor": "Run",
+    "JUnit.UserJpaRepositorySaveTest.testSave_NewUser.executor": "Run",
+    "JUnit.UserJpaRepositoryTest.findById_existingUser.executor": "Run",
+    "JUnit.UserJpaRepositoryTest.findByUsername_existingUser.executor": "Run",
+    "JUnit.UserJpaRepositoryTest.testBuscarPorUsername.executor": "Debug",
+    "JUnit.UserJpaRepositoryTest.testFindById_Success.executor": "Run",
+    "JUnit.UserJpaRepositoryTest.testSaveUsuario (1).executor": "Debug",
+    "JUnit.UserJpaRepositoryTest.testSaveUsuario.executor": "Debug",
+    "JUnit.usuario in test.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.CLEANJAVAARQUITECTUREFINAL [clean...].executor": "Run",
+    "Maven.CLEANJAVAARQUITECTUREFINAL [clean].executor": "Run",
+    "Maven.CLEANJAVAARQUITECTUREFINAL [compile].executor": "Run",
+    "Maven.CLEANJAVAARQUITECTUREFINAL [package].executor": "Run",
+    "Maven.CLEANJAVAARQUITECTUREFINAL [spring-boot:run].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Main.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Usuario 1/source/repos/CLEANJAVAARQUITECTUREFINAL/infraestructure/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario 1\source\repos\CLEANJAVAARQUITECTUREFINAL\infraestructure\src\main\resources" />
+      <recent name="C:\Users\Usuario 1\source\repos\CLEANJAVAARQUITECTUREFINAL\web\src\main\java\org\web" />
+      <recent name="C:\Users\Usuario 1\source\repos\CLEANJAVAARQUITECTUREFINAL\web\src\main\resources" />
+      <recent name="C:\Users\Usuario 1\source\repos\CLEANJAVAARQUITECTUREFINAL\infraestructure\src\main\java\org\web" />
+      <recent name="C:\Users\Usuario 1\source\repos\CLEANJAVAARQUITECTUREFINAL\Application\src\main\java\org\web" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn package" />
+      <command value="mvn spring-boot:run " />
+      <command value="mvn clean package -DskipTests" />
+      <command value="mvn clean package" />
+      <command value="mvn clean install -DskipTests " />
+      <command value="mvn compile" />
+      <command value="mvn clean package -DskipTests -Dmaven.test.skip=true " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="AuthControllerTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usuario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usuario" />
+      <option name="MAIN_CLASS_NAME" value="usuario.AuthControllerTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthControllerTest.testLoginSuccess (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.web.controller.AuthControllerTest" />
+      <option name="METHOD_NAME" value="testLoginSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthControllerTest.testLoginSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usuario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usuario" />
+      <option name="MAIN_CLASS_NAME" value="usuario.AuthControllerTest" />
+      <option name="METHOD_NAME" value="testLoginSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthControllerTest.testLoginSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.web.controller.AuthControllerTest" />
+      <option name="METHOD_NAME" value="testLoginSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserJpaRepositoryDeleteTest.DeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usuario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usuario" />
+      <option name="MAIN_CLASS_NAME" value="usuario.UserJpaRepositoryDeleteTest" />
+      <option name="METHOD_NAME" value="DeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.web.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AuthControllerTest.testLoginSuccess (2)" />
+        <item itemvalue="JUnit.AuthControllerTest.testLoginSuccess (1)" />
+        <item itemvalue="JUnit.AuthControllerTest.testLoginSuccess" />
+        <item itemvalue="JUnit.AuthControllerTest.testLogin" />
+        <item itemvalue="JUnit.UserJpaRepositoryDeleteTest.DeleteUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3541cff6-cab9-4fd6-9be9-5cc4c4293566" name="Changes" comment="" />
+      <created>1739399598176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739399598176</updated>
+      <workItem from="1739399599320" duration="124194000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/infraestructure/src/main/java/org/web/transversal/PasswordEncoderService.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/infraestructure/src/main/java/org/web/security/KeyLoader.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/infraestructure/src/main/java/org/web/security/JwtAuthenticationFilter.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/infraestructure/src/main/java/org/web/repository/UserJpaRepositoryImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/infraestructure/src/main/java/org/web/repository/UserJpaRepositoryImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/org/web/dto/rol/RolDTO.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/src/test/java/org/web/test/usuario/rol/RolJpaFindByIdTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/src/test/java/org/web/test/usuario/rol/RolJpaFindByIdTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/src/test/java/org/web/test/usuario/rol/RolJpaCreateTest.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/src/test/java/org/web/test/usuario/CrearUsuarioServiceTest.java</url>
+          <line>38</line>
+          <properties class="org.web.test.usuario.CrearUsuarioUseCaseImplTest" method="testExecute">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/org/web/dto/rol/RolDTO.java</url>
+          <line>44</line>
+          <properties class="org.web.dto.rol.RolDTO" method="setUsuarios">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/src/test/java/org/web/test/usuario/rol/RolControllerTest.java</url>
+          <line>87</line>
+          <properties class="org.web.test.usuario.rol.RolControllerTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest" memberName="response" />
+        <PinnedItemInfo parentTag="org.web.interfaces.UsuarioJpaRepository$MockitoMock$tE5uL2Vs" memberName="mockitoInterceptor" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
