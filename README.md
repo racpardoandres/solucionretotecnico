@@ -95,6 +95,8 @@ c- si se va ejecutar con docker compose:
 
  c- Luego en postman o en un navegador ejecutar: http://localhost:8080/swagger-ui/index.html
 
+![image](https://github.com/user-attachments/assets/07644d76-27e4-42d5-b6b9-5675332e6cfa)
+
  
 FUNCIONAMIENTO EN LA NUBE EJEMPLO AWS
 
