@@ -1,4 +1,5 @@
 # solucionretotecnico
+
 solucion aplicativo oferta laboral
 
 Se desarrolla una aplicacón con un modelo de negocio enfocado registro de usuarios con mas de un rol paar un sistema de registro  de usuarios. Utiliza spring security
@@ -25,8 +26,10 @@ Nota: APPLICATION esta desacoplada de INFRAESTRUCTURE Y VICERVERSA YA QUE USAMOS
 2-FUNCIONAMIENTO DE LA APLICACIÓN
 
 CONFIGURACION PREVIAS:
-CREAR UNA BASE DE DATOS EN POSTGRESQL llammada test
-CONFIGURAR EL ARCHIVO APPLICATION.PROPERTIES 
+
+-TENER INSTALADOR DOCKER
+-CREAR UNA BASE DE DATOS EN POSTGRESQL llamada test
+-CONFIGURAR EL ARCHIVO APPLICATION.PROPERTIES 
 
 Como se observa hay tres cadenas de acuerdo como se quiera conectar
 
@@ -40,7 +43,7 @@ spring.datasource.username=postgres
 spring.datasource.password=admin
 
 CONFIGURAR EL ARCHIVO DE RUTAS
-Como se observa hay cuatros archivos de rutas por defecto se usa rutapublica.txt y rutaprivada.txt esto por que busca la ruta de las llaves publica y privada para el RS256
+Como se observa hay cuatros archivos de rutas por defecto se usa rutapublica.txt y rutaprivada.txt esto por que busca la ruta de las llaves pública y privada para el RS256
 
 a-Para ejecutar la aplicación primero se debe ejecutar el comando: mvn clean package -DskipTests -Dmaven.test.skip=true 
 b-Si se va ejecutar en docker desktop: 
