@@ -108,7 +108,19 @@ FUNCIONAMIENTO EN LA NUBE EJEMPLO AWS
     -CREAR UN INTERNET GATEWAY
     -CREAR UN LOAD BALANCER
 
-   2 USANDO AWS FARGATE
+   también se pdoria gestionar con kubernetes dentro de la maquina virtual de aplicación
+
+   2 USANDO AWS ECS
+   Crear  Base de Datos (RDS/PostgreSQL o MySQL)
+   Empaquetar la aplicación Spring Boot en un archivo JAR
+   Crear un Dockerfile para tu Aplicación
+   Crear una Imagen Docker
+   Subir la Imagen a Amazon ECR (Elastic Container Registry)
+   Crear una Tarea en ECS
+   Crear un Clúster ECS
+   Configurar un Load Balancer (opcional)
+   Crear un Servicio ECS
+   Acceso Público
 
    3 USANDO AWS LAMBDA ->IMPLICA MODIFICAR EL CODIGO
 
