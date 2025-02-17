@@ -34,10 +34,15 @@ ENFOQUE:ARQUITECTURA LIMPIA
 
 ![image](https://github.com/user-attachments/assets/9443afc1-0931-4506-8c9e-da213fdd4fa0)
 
-JUSTIFICACIÓN: SEPARAR RESPONSABILIDADES
+JUSTIFICACIÓN: SEPARAR RESPONSABILIDADES, FLEXIBILIDAD, MANTENIBILIDAD, ESCALABILIDAD, INDEPENDECIA DE FRAMEWORKS
 
 
 CAPAS: 
+
+
+![image](https://github.com/user-attachments/assets/90330006-d353-4322-b1d3-c590104ff48f)
+
+
 DOMAIN -> Entidades de negocios, repositorios, y excepciones de negocio. No depdende de nadie
 APPLICATION -> DTO DE ENTRADA Y SALIDA, INTERFACES DE ENTRADA, MAPPER, CASO DE USO, VALIDACIONES. Depende de DOMAIN
 INFRAESTRUCTURE ->Excepciones transversales, servicios transversales, interfaces, entidades jpa, implementacion de repositorios jpa, security y utilidades transversales. Depende de DOMAIN
