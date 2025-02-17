@@ -6,10 +6,10 @@ Se desarrolla una aplicacón con un modelo de negocio enfocado registro de usuar
 usando JWT con un algoritmo RS256.
 
 A nivel de base  de datos tenemos
-usuarios
-rol
+usuarios,
+rol,
 usuariorol
-Excepciones
+Excepciones,
 
 ![image](https://github.com/user-attachments/assets/fff353cc-c9b0-4563-b7c3-b68233993243)
 
