@@ -9,6 +9,10 @@ A nivel de base  de datos tenemos
 usuarios
 rol
 usuariorol
+Excepciones
+
+![image](https://github.com/user-attachments/assets/fff353cc-c9b0-4563-b7c3-b68233993243)
+
 
 El aplicativo propuesto consiste en una aplicacion restfull siguiendo los principios de una arquitectura limpia y principios SOLID.
 
@@ -25,6 +29,8 @@ DOMAIN -> Entidades de negocios, repositorios, y excepciones de negocio. No depd
 APPLICATION -> DTO DE ENTRADA Y SALIDA, INTERFACES DE ENTRADA, MAPPER, CASO DE USO, VALIDACIONES. Depende de DOMAIN
 INFRAESTRUCTURE ->Excepciones transversales, servicios transversales, interfaces, entidades jpa, implementacion de repositorios jpa, security y utilidades transversales. Depende de DOMAIN
 WEB: Presentacion se encarga de presentar los controladores al usuario depende de todo lo anterior.
+TEST -> Módulo de prueba unitarias con MOCK Y JUNIT
+PATRONES DE DISEÑO: REPOSITORY
 
 Nota: APPLICATION esta desacoplada de INFRAESTRUCTURE Y VICERVERSA YA QUE USAMOS INTERFACES PARA NO USAR DEPEDENCIA , USANDO PRINCIPIO DE INTERFACES Por ejmeplo EN DOAMIN En lugar de que tu lógica de negocio dependa directamente de la base de datos (por ejemplo, a través de una implementación concreta de un repositorio), la lógica de negocio debería depender de interfaces o abstracciones. Estas interfaces luego se implementan en niveles inferiores, como el acceso a la base de datos o la integración con servicios externos.
 
