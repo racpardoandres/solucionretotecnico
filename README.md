@@ -34,7 +34,7 @@ ENFOQUE:ARQUITECTURA LIMPIA
 
 ![image](https://github.com/user-attachments/assets/9443afc1-0931-4506-8c9e-da213fdd4fa0)
 
-JUSTIFICACIÓN: SEPARAR RESPONSABILIDADES, FLEXIBILIDAD, MANTENIBILIDAD, ESCALABILIDAD, INDEPENDECIA DE FRAMEWORKS
+JUSTIFICACIÓN: SEPARAR RESPONSABILIDADES, FLEXIBILIDAD, MANTENIBILIDAD, ESCALABILIDAD, INDEPENDECIA DE FRAMEWORKS, BAJO ACOPLAMIENTO, ALTA COHESIÓN
 
 
 CAPAS: 
@@ -43,16 +43,20 @@ CAPAS:
 ![image](https://github.com/user-attachments/assets/90330006-d353-4322-b1d3-c590104ff48f)
 
 
-DOMAIN -> Entidades de negocios, repositorios, y excepciones de negocio. No depdende de nadie
-APPLICATION -> DTO DE ENTRADA Y SALIDA, INTERFACES DE ENTRADA, MAPPER, CASO DE USO, VALIDACIONES. Depende de DOMAIN
-INFRAESTRUCTURE ->Excepciones transversales, servicios transversales, interfaces, entidades jpa, implementacion de repositorios jpa, security y utilidades transversales. Depende de DOMAIN
-WEB: Presentacion se encarga de presentar los controladores al usuario depende de todo lo anterior.
+DOMAIN -> Entidades de negocios, repositorios (INTERFACES DE SALIDA A LA BASE DE DATOS), y excepciones de negocio. No depdende de nadie
+
+APPLICATION -> DTO DE ENTRADA Y SALIDA, INTERFACES DE ENTRADA (RECIBE LO DEL CONTROLLER), MAPPER (TRANSFORMACIÓN DE ENTIDADES), CASO DE USO (SERVICIOS DE NEGOCIO), VALIDACIONES. Depende de DOMAIN
+
+INFRAESTRUCTURE ->Excepciones transversales, servicios transversales (conexión a servicios SOAP o otras apis), interfaces de datos, entidades jpa, DB,  implementacion de repositorios jpa, security , y utilidades transversales. Depende de DOMAIN 
+
+WEB -> Presentacion se encarga de presentar los controladores, CONFIGURACIONES DE FRAMEWORK depende de todo lo anterior.
+
 TEST -> Módulo de prueba unitarias con MOCK Y JUNIT
+
+Nota: APPLICATION esta desacoplada de INFRAESTRUCTURE Y VICERVERSA YA QUE USAMOS INTERFACES PARA NO USAR DEPEDENCIA , USANDO PRINCIPIO DE INTERFACES Por ejmeplo EN DOMAIN En lugar de que la lógica de negocio dependa directamente de la base de datos (por ejemplo, a través de una implementación concreta de un repositorio), la lógica de negocio debería depender de interfaces o abstracciones. Estas interfaces luego se implementan en niveles inferiores, como el acceso a la base de datos o la integración con servicios externos. Lo mismo aplica para aplication no hay un llamado directo a las clases concretas sino a las abastracciones logrando desacoplamiento
 
 
 PATRONES DE DISEÑO: REPOSITORY
-
-Nota: APPLICATION esta desacoplada de INFRAESTRUCTURE Y VICERVERSA YA QUE USAMOS INTERFACES PARA NO USAR DEPEDENCIA , USANDO PRINCIPIO DE INTERFACES Por ejmeplo EN DOAMIN En lugar de que tu lógica de negocio dependa directamente de la base de datos (por ejemplo, a través de una implementación concreta de un repositorio), la lógica de negocio debería depender de interfaces o abstracciones. Estas interfaces luego se implementan en niveles inferiores, como el acceso a la base de datos o la integración con servicios externos.
 
 2-FUNCIONAMIENTO DE LA APLICACIÓN
 
