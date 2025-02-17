@@ -92,6 +92,10 @@ c- si se va ejecutar con docker compose:
  > detener el servicio de postgres sql , recordar que estamos ejecutando el de contenedor
 > 
  > Crear un rol, un usuario y asociarlo en la tabla usuariosrol
+> o ejecutar el script dump-test-20250217094512.sql
+> 
+>usuario: admin
+> clave:Ipler1824**
 
  c- Luego en postman o en un navegador ejecutar: http://localhost:8080/swagger-ui/index.html
 
