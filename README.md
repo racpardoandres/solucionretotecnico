@@ -54,16 +54,34 @@ a-Para ejecutar la aplicación primero se debe ejecutar el comando: mvn clean pa
 b-Si se va ejecutar en docker desktop: 
 > docker build -t web-spring-app .
 > >docker run -p 8080:8080 web-spring-app
+> >
 > Crear uun rol, un usuario y asociarlo en la tabla usuariosrol
 
 c- si se va ejecutar con docker compose:
  > docker-compose up -d
  > detener el servicio de postgres sql , recordar que estamos ejecutando el de contenedor
+> 
  > Crear un rol, un usuario y asociarlo en la tabla usuariosrol
 
  c- Luego en postman o en un navegador ejecutar: http://localhost:8080/swagger-ui/index.html
 
  
+FUNCIONAMIENTO EN LA NUBE EJEMPLO AWS
+
+1-USANDO EC2 ->PARA MAYOR CONTROL PASOS:
+   -CREAR UN USUARIO IAM
+   -DARLE PERMISOS FULL ACCESS EC2
+   -CREAR UNA MAQUINA VIRTUAL COMO BITNAMI
+   -INSTALAR JAVA Y POSTGRESQL
+   -INSTALAR INTELLIJDEA
+   -INSTALAR DOCKER
+   -CORRER LA APLICACICÓN
+   -CREAR UN LOAD BALANCER
+
+   2 USANDO AWS FARGATE
+
+   3 USANDO AWS LAMBDA ->IMPLICA MODIFICAR EL CODIGO
+
 
  
 
