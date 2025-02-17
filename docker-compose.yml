@@ -1,0 +1,30 @@
+version: "3.9"  # O la versión más reciente que prefieras
+
+services:
+  tu-aplicacion:  # Nombre del servicio (puedes cambiarlo)
+    image:  web-spring-app  # Nombre de tu imagen Docker (¡Crucial!)
+    ports:
+      - "8080:8080"  # Mapea el puerto 8080 del contenedor al 8080 de tu host
+    volumes:
+      - ./private.pem:/app/private.pem  # Monta private.pem desde tu host al contenedor
+      - ./public.pem:/app/public.pem    # Monta public.pem desde tu host al contenedor
+    depends_on:  # Si tu aplicación depende de otros servicios (ej. base de datos)
+      - postgres  # Ejemplo: depende de un servicio llamado "postgres"
+    environment:  # Variables de entorno
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/test # Ejemplo
+      - SPRING_DATASOURCE_USERNAME=postgres # Ejemplo
+      - SPRING_DATASOURCE_PASSWORD=admin # Ejemplo
+
+  postgres:  # Servicio de base de datos PostgreSQL (ejemplo)
+    image: postgres:latest  # O la versión que necesites
+    ports:
+      - "5432:5432"  # Mapea el puerto 5432 del contenedor al 5432 de tu host (opcional, solo si accedes directamente desde el host)
+    environment:
+      - POSTGRES_USER=postgres  # Usuario de la base de datos
+      - POSTGRES_PASSWORD=admin  # Contraseña de la base de datos
+      - POSTGRES_DB=test  # Nombre de la base de datos
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Volumen para persistir los datos (recomendado)
+
+volumes:  # Definición de volúmenes (para persistencia de datos)
+  postgres_data:
