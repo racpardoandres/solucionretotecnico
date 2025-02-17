@@ -5,6 +5,12 @@ solucion aplicativo oferta laboral
 Se desarrolla una aplicacón con un modelo de negocio enfocado registro de usuarios con mas de un rol paar un sistema de registro  de usuarios. Utiliza spring security
 usando JWT con un algoritmo RS256.
 
+HERRAMIENTAS DE DESARRROLLO
+JIDEA
+JDK 17
+POSTGRESQL
+DOCKER DESKTOP
+
 A nivel de base  de datos tenemos
 usuarios,
 rol,
