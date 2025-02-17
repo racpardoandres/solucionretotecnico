@@ -23,6 +23,9 @@ La aplicación esta desarrollada con Spring Boot 3.4.2, maven y usando java jdk 
 
 
 ENFOQUE:ARQUITECTURA LIMPIA
+
+![image](https://github.com/user-attachments/assets/9443afc1-0931-4506-8c9e-da213fdd4fa0)
+
 JUSTIFICACIÓN: SEPARAR RESPONSABILIDADES
 
 
