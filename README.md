@@ -5,6 +5,9 @@ solucion aplicativo oferta laboral
 Se desarrolla una aplicacón con un modelo de negocio enfocado registro de usuarios con mas de un rol para un sistema de registro  de usuarios. Utiliza spring security
 usando JWT con un algoritmo RS256.
 
+La aplicación esta desarrollada con Spring Boot 3.4.2, maven y usando java jdk 17
+
+
 HERRAMIENTAS DE DESARRROLLO
 JIDEA
 JDK 17
@@ -22,7 +25,6 @@ Excepciones,
 
 El aplicativo propuesto consiste en una aplicacion restfull siguiendo los principios de una arquitectura limpia y principios SOLID.
 
-La aplicación esta desarrollada con Spring Boot 3.4.2, maven y usando java jdk 17
 
 
 1-DISEÑO DE LA APLICACION:
