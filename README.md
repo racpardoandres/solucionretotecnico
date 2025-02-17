@@ -5,6 +5,11 @@ solucion aplicativo oferta laboral
 Se desarrolla una aplicacón con un modelo de negocio enfocado registro de usuarios con mas de un rol paar un sistema de registro  de usuarios. Utiliza spring security
 usando JWT con un algoritmo RS256.
 
+A nivel de base  de datos tenemos
+usuarios
+rol
+usuariorol
+
 El aplicativo propuesto consiste en una aplicacion restfull siguiendo los principios de una arquitectura limpia y principios SOLID.
 
 La aplicación esta desarrollada con Spring Boot 3.4.2, maven y usando java jdk 17
@@ -49,9 +54,12 @@ a-Para ejecutar la aplicación primero se debe ejecutar el comando: mvn clean pa
 b-Si se va ejecutar en docker desktop: 
 > docker build -t web-spring-app .
 > >docker run -p 8080:8080 web-spring-app
+> Crear uun rol, un usuario y asociarlo en la tabla usuariosrol
 
 c- si se va ejecutar con docker compose:
  > docker-compose up -d
+ > detener el servicio de postgres sql , recordar que estamos ejecutando el de contenedor
+ > Crear un rol, un usuario y asociarlo en la tabla usuariosrol
 
  c- Luego en postman o en un navegador ejecutar: http://localhost:8080/swagger-ui/index.html
 
